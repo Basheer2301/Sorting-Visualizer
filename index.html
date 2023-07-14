@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Inter:wght@600&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="sort.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Sorting Algorithms Visualizer</title>
+</head>
+
+<body>
+    <header>
+        <h2>Sorting Algorithms Visualizer</h2>
+    </header>
+    <main>
+        <nav class="navbar navbar-dark bg-dark container-fluid d-flex">
+            <div id="left" class="d-flex justify-content-start ">
+                <button id="ar_btn" type="button" class=" b btn btn-outline-light">Randomize Array</button>
+            </div>
+            <div id="right" class="d-flex justify-content-evenly">
+                <button id="insertion_btn" type="button" class="b btn btn-outline-light">Insertion Sort</button>                    
+                <button id="selection_btn" type="button" class="b btn btn-outline-light">Selection Sort</button>
+                <button id="bubble_btn" type="button" class="b btn btn-outline-light">Bubble Sort</button>
+                <button id="quick_btn" type="button" class="b btn btn-outline-light">Quick Sort</b̥utton>
+                <button id="merge_btn" type="button" class="b btn btn-outline-light">Merge Sort</button>
+            </div>
+        </nav>
+        <div id="bars" class="d-flex align-items-end justify-content-evenly">
+            
+        </div>
+        
+        <div class="slider">
+            <div class="speed-slider">
+                <div class="value">5</div>
+                <div class="tnr">
+                    <span class="slider-text">Speed</span>
+                    <input class="speed" type="range" min="1" max="10" step="1" value="5"></span>
+                </div>
+            </div>
+            <div class="size-slider">
+                <div class="value">50</div>
+                <div class="tnr">
+                    <span class="slider-text">Size</span>
+                    <input class="size" type="range" min="1" step="1" max="100" value="50"></span>
+                </div>
+            </div>
+        </div>
+        
+
+       
+    </main>
+    <script src="alorithms/merge.js"></script>
+    <script src="alorithms/quick.js"></script>
+    <script src="sort.js"></script>
+</body>
+
+</html>
