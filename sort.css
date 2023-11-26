@@ -91,24 +91,25 @@ input[type="range"]::-webkit-slider-thumb:active {
 .speed-slider {
     height: 10%;
     background-color: rgba(48, 156, 11, 0.511);
-    width: 25%;
+    width: 300px;
     display: flex;
     border-radius: 1rem;
     flex-direction: column;
     justify-content: space-around;
     border: 1.5px solid #1d43ec;
     font-size: 1.3rem;
+    margin: 50px;
 }
 .size-slider {
     height: 10%;
     background-color: rgba(48, 156, 11, 0.511);
-    width: 23%;
+    width: 300px;
     display: flex;
     border-radius: 1rem;
     flex-direction: column;
     justify-content: space-around;
     border: 1.5px solid #1d43ec;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .slider {
     display: flex;
