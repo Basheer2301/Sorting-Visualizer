@@ -97,12 +97,8 @@ input[type="range"]::-webkit-slider-thumb:active {
     flex-direction: column;
     justify-content: space-around;
     border: 1.5px solid #1d43ec;
-<<<<<<< HEAD:src/sort.css
-    font-size: 1rem;
-=======
     font-size: 1.3rem;
     margin: 50px;
->>>>>>> 726e9037a2e5e396760d9479f8ba796e5ad1c71a:sort.css
 }
 .size-slider {
     height: 10%;
@@ -113,11 +109,7 @@ input[type="range"]::-webkit-slider-thumb:active {
     flex-direction: column;
     justify-content: space-around;
     border: 1.5px solid #1d43ec;
-<<<<<<< HEAD:src/sort.css
-    font-size: 1rem;
-=======
     font-size: 1.3rem;
->>>>>>> 726e9037a2e5e396760d9479f8ba796e5ad1c71a:sort.css
 }
 .slider {
     display: flex;
